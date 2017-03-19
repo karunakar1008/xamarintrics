@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinTrics.StylesBasic.SamplePageXamal"
+             Padding="30">
+    <StackLayout Spacing="10">
+        <Label Text="I am a label" BackgroundColor="Blue" Font="30" WidthRequest="150" HeightRequest="40"></Label>
+        <Button Text="I am a button" BackgroundColor="Red" WidthRequest="200" HeightRequest="200" Font="20"></Button>
+        <Entry Placeholder="I am a text control" WidthRequest="200" HeightRequest="150" BackgroundColor="Green" ></Entry>
+    </StackLayout>
+</ContentPage>
